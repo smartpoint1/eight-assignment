@@ -8,6 +8,8 @@
     
 }
 
+
+
 .con .head .pad .head1{
     font-family: "Pacifico", 'Times New Roman', Times, serif;
     color: rgb(19, 152, 170);
@@ -19,6 +21,9 @@
     text-align:center;
    
 }
+.con{
+    margin: 0 200px;
+}
 
 .con .head .pad .phead{
     font-size: 30px;
@@ -26,13 +31,16 @@
     margin-bottom: 20px;
 }
 .con .head .pad .mountain{
-    height: 248px;
+    height: 230px;
 }
 .cloud{
     height: 40px;
+    margin-left: 800px;
+    margin-top: 20px;
 }
 .cloud1{
     height: 40px;
+    margin-right: 800px;
 }
 .first{
     height: 80vh;
@@ -74,6 +82,10 @@
     height: 120vh;
     display: grid;
 }
+.mainmain h1{
+    color: green;
+    font-size: 3rem;
+}
 .mainmain .img{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
@@ -90,7 +102,8 @@
     align-items: center;
     padding: 30px 30px;
     height: 20rem;
-    width: 25rem;
+    width: 19rem;
+    gap: 1rem;
 }
 img{
     height: 15rem;
@@ -100,5 +113,34 @@ img{
     transform: scale(1.1);
 }
 .aside{
-    height: 100vh;
+    height: 60vh;
+    line-height: 3rem;
+}
+footer{
+    background-color: rgb(121, 121, 226);
+    height: 30vh;
+}
+footer a {
+    text-decoration: none;
+    margin: 30px;
+    display: inline-block;
+}
+footer a:hover{
+    color: white;
+    background-color: aqua;
+}
+.acon{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-block-start: 6rem;
+    padding: 10px;
+}
+.acon:hover{
+background-color: rgb(96, 192, 40);
+color: white;
+}
+footer p{
+    color: white;
 }
