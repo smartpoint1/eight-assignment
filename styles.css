@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+    
+}
+
+.con .head .pad .head1{
+    font-family: "Pacifico", 'Times New Roman', Times, serif;
+    color: rgb(19, 152, 170);
+    font-size: 50px;
+}
+.head{
+    height: 80vh;
+    background-color: rgb(232, 241, 241);
+    text-align:center;
+   
+}
+
+.con .head .pad .phead{
+    font-size: 30px;
+    color: rgb(19, 152, 170);
+    margin-bottom: 20px;
+}
+.con .head .pad .mountain{
+    height: 248px;
+}
+.cloud{
+    height: 40px;
+}
+.cloud1{
+    height: 40px;
+}
+.first{
+    height: 80vh;
+    text-align: center;
+    margin: 80px auto;
+}
+.main h1{
+    color: rgb(19, 152, 170);
+    margin-bottom: 50px;
+}
+.main .pmain{
+    margin: 60px;
+}
+.main p{margin-bottom: 60px;}
+.second{
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    justify-content:space-around;
+    align-items: center;
+}
+.second h3{
+    color: rgb(19, 152, 170);
+    margin-bottom: 40px;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+}
+.third h3{
+    color: rgb(19, 152, 170);
+    margin-bottom: 40px;
+}
+.mainmain{
+    margin: 30px;
+    background-color: gray;
+    height: 120vh;
+    display: grid;
+}
+.mainmain .img{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+.photo{
+    display: grid;
+    align-items: center;
+    padding: 30px 30px;
+    height: 20rem;
+    width: 25rem;
+}
+img{
+    height: 15rem;
+}
+.photo:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.aside{
+    height: 100vh;
+}
